@@ -28,6 +28,58 @@ main {
 
 
 
+/* header section added */
+header {
+    background-color: #562EFF;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* navigation section start */
+.navigation {
+    width: 920px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-icon {
+    display: flex;
+    align-items: center;
+}
+.nav img {
+    width: 40px;
+    height: 51px;
+}
+.nav h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    margin-left: 15px;
+    color: #FFFFFF;
+}
+.nav-anchor {
+    display: flex;
+    align-items: center;
+}
+.nav-anchor a {
+    margin-right: 36px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.nav-anchor img {
+    width: 51px;
+    height: 51px;
+}
+/* navigation section end */
+
+
+
+
 /* top player section start */
 .top-player {
     width: 870px;
