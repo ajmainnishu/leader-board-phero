@@ -1,0 +1,62 @@
+/* font link */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap');
+
+
+
+
+/* common section and utilities start */
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+main {
+    background-color: #F3F1FF;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+.container {
+    width: 870px;
+    height: 679px;
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 5px;
+}
+/* common section and utilities end */
+
+
+
+
+/* top player section start */
+.top-player h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #562EFF;
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+.top-player-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 29px;
+}
+.top-player-details {
+    display: flex;
+    align-items: center;
+}
+.top-player-info img {
+    width: 56px;
+    height: 56px;
+}
+.top-player-info h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 16px;
+}
+hr {
+    border: 1px solid #D1D1D1;
+    margin: 30px 0;
+}
+/* top player section end */
